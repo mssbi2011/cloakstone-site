@@ -190,7 +190,7 @@ export default function Home() {
                 Email: info@cloakstone.com
               </div>
               <div className="rounded-2xl border border-white/10 bg-white/5 p-5">
-                Phone: (123) 456-7890
+                Phone: (123) 456-8899
               </div>
               <div className="rounded-2xl border border-white/10 bg-white/5 p-5">
                 Location: Dallas-Fort Worth, Texas

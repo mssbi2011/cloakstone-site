@@ -223,6 +223,7 @@ export default function Home() {
         <ul className="space-y-2 text-sm">
           <li><a href="/privacy" className="hover:text-white">Privacy Policy</a></li>
           <li><a href="/terms" className="hover:text-white">Terms & Conditions</a></li>
+          <li><a href="/Returns" className="hover:text-white">RETURN & REFUND POLICY</a></li>
         </ul>
       </div>
     </div>

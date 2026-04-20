@@ -1,80 +1,165 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-white text-slate-900">
-      <section className="bg-gradient-to-br from-slate-950 via-blue-900 to-slate-900 text-white">
-        <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
-          <nav className="sticky top-0 z-50 mb-16 flex items-center justify-between bg-transparent backdrop-blur">
-            <div className="text-2xl font-bold tracking-wide">Cloakstone Distributors</div>
-            <div className="hidden gap-8 text-sm md:flex">
-              <a href="#products" className="hover:text-blue-200">Products</a>
-              <a href="#about" className="hover:text-blue-200">About</a>
-              <a href="#contact" className="hover:text-blue-200">Contact</a>
-            </div>
-          </nav>
+      <section className="relative overflow-hidden text-white">
+  {/* Background image */}
+  {/* Background image */}
+<div
+  className="absolute inset-0 bg-cover bg-center"
+  style={{ backgroundImage: "url('/images/warehouse-hero.png')" }}
+/>
 
-          <div className="grid items-center gap-12 lg:grid-cols-2">
-            <div>
-              <p className="mb-4 inline-block rounded-full border border-white/20 bg-white/10 px-4 py-1 text-sm">
-                Premium Distribution Solutions
+<div className="absolute inset-0 bg-gradient-to-r from-slate-950/50 via-slate-900/20 to-transparent" />
+
+  {/* Content */}
+  <div className="relative z-10 mx-auto max-w-7xl px-6 py-20 lg:px-8">
+    <nav className="sticky top-0 z-50 mb-16 flex items-center justify-between rounded-2xl border border-white/10 bg-white/5 px-4 py-3 backdrop-blur-md">
+      <div className="text-2xl font-bold tracking-wide">Cloakstone Distributors</div>
+      <div className="hidden gap-8 text-sm md:flex">
+        <a href="#products" className="hover:text-blue-200">Products</a>
+        <a href="#about" className="hover:text-blue-200">About</a>
+        <a href="#contact" className="hover:text-blue-200">Contact</a>
+      </div>
+    </nav>
+
+    <div className="grid items-center gap-12 lg:grid-cols-2">
+      <div>
+        <p className="mb-4 inline-block rounded-full border border-white/20 bg-white/10 px-4 py-1 text-sm backdrop-blur-md">
+          Premium Distribution Solutions
+        </p>
+
+        <h1 className="mb-6 text-5xl font-bold leading-tight lg:text-6xl">
+          Cloakstone Distributors
+        </h1>
+
+        <p className="mb-8 max-w-2xl text-lg text-blue-100">
+          Wholesale Distribution for Retailers, Businesses, and Resellers
+        </p>
+
+        <div className="flex flex-wrap gap-4">
+          <a
+            href="/inventory"
+            className="rounded-full bg-white px-6 py-3 font-semibold text-slate-900 transition hover:bg-blue-100"
+          >
+            Browse Inventory
+          </a>
+          <a
+            href="/contact"
+            className="rounded-full border border-white/30 px-6 py-3 font-semibold text-white transition hover:bg-white/10"
+          >
+            Request Quote
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <div className="rounded-3xl border border-white/10 bg-white/10 p-8 shadow-2xl backdrop-blur-md">
+          <div className="grid gap-6 sm:grid-cols-2">
+            <div className="rounded-2xl bg-white/10 p-6">
+              <h3 className="mb-2 text-xl font-semibold">Trusted Supply</h3>
+              <p className="text-sm text-blue-100">
+                Consistent sourcing with dependable fulfillment support.
               </p>
-              <h1 className="mb-6 text-5xl font-bold leading-tight lg:text-6xl">
-                Modern sourcing and distribution for growing businesses
-              </h1>
-              <p className="mb-8 max-w-2xl text-lg text-blue-100">
-                Cloakstone helps businesses streamline product distribution with
-                reliable sourcing, quality-focused partnerships, and a modern
-                service-first approach.
-              </p>
-
-              <div className="flex flex-wrap gap-4">
-                <a
-                  href="#products"
-                  className="rounded-full bg-white px-6 py-3 font-semibold text-slate-900 transition hover:bg-blue-100"
-                >
-                  View Products
-                </a>
-                <a
-                  href="#contact"
-                  className="rounded-full border border-white/30 px-6 py-3 font-semibold text-white transition hover:bg-white/10"
-                >
-                  Contact Us
-                </a>
-              </div>
             </div>
-
-            <div>
-              <div className="rounded-3xl border border-white/10 bg-white/10 p-8 shadow-2xl backdrop-blur">
-                <div className="grid gap-6 sm:grid-cols-2">
-                  <div className="rounded-2xl bg-white/10 p-6">
-                    <h3 className="mb-2 text-xl font-semibold">Trusted Supply</h3>
-                    <p className="text-sm text-blue-100">
-                      Consistent sourcing with dependable fulfillment support.
-                    </p>
-                  </div>
-                  <div className="rounded-2xl bg-white/10 p-6">
-                    <h3 className="mb-2 text-xl font-semibold">Quality Focus</h3>
-                    <p className="text-sm text-blue-100">
-                      Product standards designed to support long-term growth.
-                    </p>
-                  </div>
-                  <div className="rounded-2xl bg-white/10 p-6">
-                    <h3 className="mb-2 text-xl font-semibold">Fast Response</h3>
-                    <p className="text-sm text-blue-100">
-                      Clear communication and responsive service for partners.
-                    </p>
-                  </div>
-                  <div className="rounded-2xl bg-white/10 p-6">
-                    <h3 className="mb-2 text-xl font-semibold">Scalable Model</h3>
-                    <p className="text-sm text-blue-100">
-                      Built to support startups, retailers, and enterprise buyers.
-                    </p>
-                  </div>
-                </div>
-              </div>
+            <div className="rounded-2xl bg-white/10 p-6">
+              <h3 className="mb-2 text-xl font-semibold">Quality Focus</h3>
+              <p className="text-sm text-blue-100">
+                Product standards designed to support long-term growth.
+              </p>
+            </div>
+            <div className="rounded-2xl bg-white/10 p-6">
+              <h3 className="mb-2 text-xl font-semibold">Fast Response</h3>
+              <p className="text-sm text-blue-100">
+                Clear communication and responsive service for partners.
+              </p>
+            </div>
+            <div className="rounded-2xl bg-white/10 p-6">
+              <h3 className="mb-2 text-xl font-semibold">Scalable Model</h3>
+              <p className="text-sm text-blue-100">
+                Built to support startups, retailers, and enterprise buyers.
+              </p>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </div>
+</section>
+<section className="bg-white py-16">
+  <div className="mx-auto max-w-7xl px-6 lg:px-8">
+    <div className="mb-10 text-center">
+      <h2 className="text-3xl font-bold text-slate-900">Shop by Category</h2>
+      <p className="mt-2 text-slate-500">
+        Explore our wholesale product categories
+      </p>
+    </div>
+
+    <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      {[
+        {
+          name: "Soft Drinks",
+          slug: "soft-drinks",
+          image: "/images/soft-drinks.png",
+        },
+        {
+          name: "Energy Drinks",
+          slug: "energy-drinks",
+          image: "/images/Energy-drinks.png",
+        },
+        {
+          name: "Water",
+          slug: "water",
+          image: "/images/waters.png",
+        },
+        {
+          name: "Juice",
+          slug: "juice",
+          image: "/images/jucies.png",
+        },
+        {
+          name: "Snacks",
+          slug: "snacks",
+          image: "/images/snacks.png",
+        },
+        {
+          name: "Grocery",
+          slug: "grocery",
+          image: "/images/grocery.png",
+        },
+        {
+          name: "Cleaning Supplies",
+          slug: "cleaning-supplies",
+          image: "/images/cleaning.png",
+        },
+        {
+          name: "Disposables",
+          slug: "disposables",
+          image: "/images/dispo.png",
+        },
+      ].map((category) => (
+        <a
+          key={category.slug}
+          href={`/category/${category.slug}`}
+          className="group overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl"
+        >
+          <div className="relative h-56 overflow-hidden">
+            <img
+              src={category.image}
+              alt={category.name}
+              className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
+            <div className="absolute bottom-4 left-4">
+              <h3 className="text-xl font-semibold text-white">
+                {category.name}
+              </h3>
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
 
       <section id="products" className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
         <div className="mb-12 max-w-2xl">

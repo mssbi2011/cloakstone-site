@@ -104,17 +104,17 @@ export default function Home() {
         {
           name: "Energy Drinks",
           slug: "energy-drinks",
-          image: "/images/Energy-drinks.png",
+          image: "/images/energy-drinks.png",
         },
         {
           name: "Water",
           slug: "water",
-          image: "/images/waters.png",
+          image: "/images/water.png",
         },
         {
           name: "Juice",
           slug: "juice",
-          image: "/images/jucies.png",
+          image: "/images/juice.png",
         },
         {
           name: "Snacks",
@@ -129,12 +129,12 @@ export default function Home() {
         {
           name: "Cleaning Supplies",
           slug: "cleaning-supplies",
-          image: "/images/cleaning.png",
+          image: "/images/cleaning-supplies.png",
         },
         {
           name: "Disposables",
           slug: "disposables",
-          image: "/images/dispo.png",
+          image: "/images/disposables.png",
         },
       ].map((category) => (
         <a

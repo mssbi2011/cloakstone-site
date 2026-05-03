@@ -25,7 +25,7 @@ export const products: Product[] = [
     price: 12.99,
     stock: 120,
     sku: "CC-12OZ-24",
-    image: "/products/coke.png",
+    image: "/images/products/coke.png",
     featured: true,
   },
   {
@@ -39,7 +39,7 @@ export const products: Product[] = [
     price: 11.99,
     stock: 95,
     sku: "PEP-12OZ-24",
-    image: "/products/pepsi.png",
+    image: "/images/products/pepsi.png",
     featured: true,
   },
   {
@@ -53,7 +53,7 @@ export const products: Product[] = [
     price: 11.49,
     stock: 80,
     sku: "SPR-12OZ-24",
-    image: "/products/sprite.png",
+    image: "/images/products/sprite.png",
   },
   {
     id: 4,
@@ -66,7 +66,7 @@ export const products: Product[] = [
     price: 34.99,
     stock: 45,
     sku: "RB-84-24",
-    image: "/products/redbull.jpg",
+    image: "/images/products/redbull.png",
     featured: true,
   },
   {

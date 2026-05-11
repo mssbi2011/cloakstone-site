@@ -80,7 +80,7 @@ export const products: Product[] = [
     price: 36.99,
     stock: 60,
     sku: "MON-16OZ-24",
-    image: "/products/monster.jpg",
+    image: "/images/products/monster.png",
   },
   {
     id: 6,
@@ -93,7 +93,7 @@ export const products: Product[] = [
     price: 6.99,
     stock: 150,
     sku: "DAS-169-24",
-    image: "/products/dasani.jpg",
+    image: "/images/products/dasani.png",
   },
   {
     id: 7,
@@ -106,7 +106,7 @@ export const products: Product[] = [
     price: 6.79,
     stock: 130,
     sku: "AQF-169-24",
-    image: "/products/aquafina.jpg",
+    image: "/images/products/aquafina.png",
   },
   {
     id: 8,
@@ -114,12 +114,12 @@ export const products: Product[] = [
     name: "Tropicana Orange Juice",
     brand: "Tropicana",
     category: "juice",
-    size: "52 oz",
+    size: "46 oz",
     pack: "1 Bottle",
-    price: 4.99,
+    price: 3.89,
     stock: 70,
-    sku: "TRO-OJ-52",
-    image: "/products/tropicana.jpg",
+    sku: "TRO-OJ-46",
+    image: "/images/products/tropicana.png",
   },
   {
     id: 9,
@@ -132,7 +132,7 @@ export const products: Product[] = [
     price: 3.49,
     stock: 90,
     sku: "LAY-8OZ",
-    image: "/products/lays.jpg",
+    image: "/images/products/lays.png",
   },
   {
     id: 10,
@@ -145,7 +145,7 @@ export const products: Product[] = [
     price: 1.29,
     stock: 200,
     sku: "SNK-186",
-    image: "/products/snickers.jpg",
+    image: "/images/products/snickers.png",
   },
   {
     id: 11,
@@ -158,7 +158,7 @@ export const products: Product[] = [
     price: 5.99,
     stock: 55,
     sku: "CLR-32",
-    image: "/products/clorox.jpg",
+    image: "/images/products/clorox.png",
   },
   {
     id: 12,
@@ -168,9 +168,9 @@ export const products: Product[] = [
     category: "disposables",
     size: "12 oz",
     pack: "50 Count",
-    price: 4.49,
+    price: 6.49,
     stock: 110,
     sku: "CUP-50",
-    image: "/products/cups.jpg",
+    image: "/images/products/cups.png",
   },
 ];

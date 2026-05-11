@@ -15,11 +15,11 @@ export default function Home() {
           className="absolute inset-0 bg-cover bg-center opacity-45"
           style={{ backgroundImage: "url('/images/warehouse-hero.png')" }}
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/85 to-slate-950/40" />
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-750 via-slate-750/85 to-slate-950/40" />
 
         <nav className="relative z-10 mx-auto flex max-w-7xl items-center justify-between px-6 py-6">
           <Link href="/" className="text-2xl font-bold tracking-tight">
-            Cloakstone
+            Cloakstone Distributors
           </Link>
 
           <div className="hidden items-center gap-8 text-sm font-semibold md:flex">
@@ -117,7 +117,7 @@ export default function Home() {
               <Link
                 key={category.slug}
                 href={`/category/${category.slug}`}
-                className="group relative h-64 overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-2xl"
+                className="group relative h-52 overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-2xl"
               >
                 <img
                   src={category.image}
